@@ -37,7 +37,7 @@ class _LoginPageState extends State<LoginPage> {
           child: Column(
             children: [
               new Image.asset(
-                "assets/images/login_image.png",
+                "assets/images/hey.png",
                 fit: BoxFit.cover,
               ),
               SizedBox(
@@ -106,13 +106,7 @@ class _LoginPageState extends State<LoginPage> {
                         ),
                       ),
                     ),
-                    // ElevatedButton(
-                    //   onPressed: () {
-                    //     Navigator.pushNamed(context, MyRoutes.homeRoute);
-                    //   },
-                    //   child: Text("Login"),
-                    //   style: TextButton.styleFrom(minimumSize: Size(150, 40)),
-                    // )
+                    
                   ],
                 ),
               )
